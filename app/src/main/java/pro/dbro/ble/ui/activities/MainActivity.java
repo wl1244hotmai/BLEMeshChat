@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity implements LogConsumer,
 
                     case 0: // Always online
                         mClient.makeAvailable();
-                        mAirShareFragment.setShouldServiceContinueInBackground(true);
+//                        mAirShareFragment.setShouldServiceContinueInBackground(true);
                         break;
 
                     case 1: // Online when using app
